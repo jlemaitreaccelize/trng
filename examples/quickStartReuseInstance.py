@@ -28,5 +28,5 @@ myaccel.start(stop_mode=KEEP)
 
 # Process
 print "Running Random Number Generation ..."
-ret, processdict =  myaccel.process(file_out=os.path.join('results', 'output.bin'))
+ret, processdict =  myaccel.process(file_out=os.path.join('results', 'output.bin'), process_parameter={"app":{"specific": {"nbBytes": 1048576}}})
 

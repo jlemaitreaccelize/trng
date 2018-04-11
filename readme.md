@@ -47,9 +47,9 @@ The trng git repository conveniently contains:
     from acceleratorAPI.acceleratorAPI import *
     myaccel = AcceleratorClass(accelerator='secureic_trng')
     myaccel.start()
-    myaccel.process(file_out='results/output.bin')
+    myaccel.process(file_out='results/output.bin', process_parameter={"app":{"specific": {"nbBytes": 1048576}}})
     #... Repeat 
-    myaccel.process(file_out='results/output2.bin')
+    myaccel.process(file_out='results/output2.bin', process_parameter={"app":{"specific": {"nbBytes": 1048576}}})
     myaccel.stop()
 ```
 #### 3. Inspect output file 
