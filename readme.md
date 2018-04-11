@@ -84,8 +84,8 @@ sudo /opt/accelize/accelerator/accelerator -j ${parameterFile} -o ${outputFile} 
 ```
 
 ## quickStart.py explanation 
-The quickStart.py script automatically starts a server hosted by your CSP, load and run the accelerator to generate 1MB of true random data.
-data is stored in the "output.bin" file in the results folder.<br/>
+The quickStart.py script automatically starts a server hosted by your CSP, load and run the accelerator to generate 1MB of true random data.<br/>
+Data is stored in the "output.bin" file in the results folder.<br/>
 <br/>
 
 ## Metering
