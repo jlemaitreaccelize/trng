@@ -1,0 +1,3 @@
+[submodule "acceleratorAPI"]
+	path = acceleratorAPI
+	url = https://github.com/Accelize/AcceleratorAPI

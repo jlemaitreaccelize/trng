@@ -1,0 +1,13 @@
+{
+    "app":{
+        "reset": 1,
+        "enable-sw-comparison": 0,
+        "logging": {
+            "format": 1,
+            "verbosity": 1
+        },
+        "specific": {
+            "nbBytes": 1073741824
+        }
+    }
+}
