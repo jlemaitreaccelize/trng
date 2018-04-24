@@ -58,7 +58,7 @@ The trng git repository conveniently contains:
 
 #### 4. Check the metering information on your [AccelStore account](https://accelstore.accelize.com/user/applications). 
 
-[Advanced mode available](https://github.com/Accelize/acceleratorAPI/blob/master/ocs/tutorial/)
+[Advanced mode available](https://github.com/Accelize/acceleratorAPI/tree/master/docs/tutorial)
 
 ## Getting started - Local execution on instance
 
